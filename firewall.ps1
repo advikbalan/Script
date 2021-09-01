@@ -1,2 +1,2 @@
 #Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
-Get-NetFirewallProfile │select name, enabled
+netsh advfirewall set allprofiles state off
