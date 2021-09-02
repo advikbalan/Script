@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "centralindia"
+        },
+        "networkInterfaceName": {
+            "value": "vm150"
+        },
+        "subnetName": {
+            "value": "cvs_lab_1_prod_dmz"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/baee3032-fb87-4ad9-8644-f088ad17d463/resourceGroups/cvs_lab_1/providers/Microsoft.Network/virtualNetworks/cvs_lab_1_vnet"
+        },
+        "publicIpAddressName": {
+            "value": "vm-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "vm"
+        },
+        "virtualMachineComputerName": {
+            "value": "vm"
+        },
+        "virtualMachineRG": {
+            "value": "cvs_lab_1"
+        },
+        "osDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1s"
+        },
+        "adminUsername": {
+            "value": "advikadmin"
+        },
+        "adminPassword": {
+            "value": "P@ssw0rd@123"
+        },
+        "patchMode": {
+            "value": "AutomaticByOS"
+        },
+        "enableHotpatching": {
+            "value": false
+        }
+    }
+}
