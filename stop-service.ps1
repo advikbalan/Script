@@ -1,0 +1,1 @@
+Get-Service BITS | %{if ($_.Status -eq "Stopped") { Start-Service BITS }}
